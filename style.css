@@ -18,7 +18,7 @@ body {
     font-size: 30px;
     cursor: pointer;
 }
-/* Cyberpunk Farben */
+
 :root {
     --neon-pink: #ff00c8;
     --neon-blue: #00eaff;
@@ -36,7 +36,7 @@ body {
     overflow: hidden;
 }
 
-/* Scanline Effekt */
+
 body::before {
     content: "";
     position: fixed;
@@ -55,7 +55,7 @@ body::before {
     z-index: 1000;
 }
 
-/* Titel Glow */
+
 h1 {
     color: var(--neon-pink);
     font-size: 3rem;
@@ -66,7 +66,7 @@ h1 {
     margin-bottom: 50px;
 }
 
-/* Das Spielfeld */
+
 #feld {
     width: 300px;
     height: 300px;
@@ -91,12 +91,12 @@ h1 {
     transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.1s;
 }
 
-/* Cyberpunk Hover */
+
 #feld:hover {
     transform: scale(1.02);
 }
 
-/* Anzeige */
+
 #anzeige {
     margin-top: 40px;
     font-size: 1.8rem;
@@ -106,7 +106,7 @@ h1 {
         0 0 20px var(--neon-yellow);
 }
 
-/* Cyberpunk Button (optional) */
+
 button {
     margin-top: 30px;
     padding: 12px 30px;
